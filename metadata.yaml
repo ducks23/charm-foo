@@ -1,0 +1,16 @@
+name: foo
+summary: Describe your charm here
+maintainers:
+    - foo <foo@foo.com>
+description: |
+    A nice long description of what the product does and any
+    high level information about how the charm provides the product,
+    on which platform, etc.
+tags:
+    - misc
+series:
+    - bionic
+    - xenial
+requires:
+  db:
+    interface: mysql
